@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exel’s Projects</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #1e293b, #334155);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .socials a {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #38bdf8;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .socials a:hover {
+      color: #facc15;
+    }
+    /* simple animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s forwards;
+    }
+    @keyframes fadeInUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">Welcome to Exel’s Projects 🚀</h1>
+    <p class="fade-in" style="animation-delay:0.3s;">Explore my work below</p>
+  </header>
+
+  <nav>
+    <a href="#games">Games</a>
+    <a href="#websites">Websites</a>
+    <a href="#scripts">Tools</a>
+  </nav>
+
+  <section id="games" class="fade-in">
+    <h2>🎮 Games</h2>
+    <p>My cool gaming projects go here.</p>
+  </section>
+
+  <section id="websites" class="fade-in">
+    <h2>🌐 Websites</h2>
+    <p>Websites I’ve built and hosted.</p>
+  </section>
+
+  <section id="scripts" class="fade-in">
+    <h2>💻 Tools</h2>
+    <p>Useful tools, bots, or experiments.</p>
+  </section>
+
+  <section>
+    <h2>🔗 Connect with Me</h2>
+    <div class="socials">
+      <a href="https://github.com/exelthebuilder target="_blank">GitHub</a>
+      <a href="https://discord.com/users/1309137397912571955 target="_blank">Discord</a>
+      <a href="https://twitter.com/exelthesoldier target="_blank">Twitter</a>
+    </div>
+  </section>
+</body>
+</html>
