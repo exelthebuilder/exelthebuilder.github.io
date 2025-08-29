@@ -27,6 +27,7 @@
       background: #1e293b;
       position: sticky;
       top: 0;
+      z-index: 100;
     }
     nav a {
       margin: 0 15px;
@@ -61,6 +62,23 @@
     @keyframes fadeInUp {
       to { opacity: 1; transform: translateY(0); }
     }
+    /* project card */
+    .project {
+      background: #1e293b;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .project h3 {
+      margin: 0 0 10px;
+      color: #38bdf8;
+    }
+    .project p {
+      margin: 0;
+      color: #ccc;
+    }
   </style>
 </head>
 <body>
@@ -72,7 +90,8 @@
   <nav>
     <a href="#games">Games</a>
     <a href="#websites">Websites</a>
-    <a href="#scripts">Tools</a>
+    <a href="#scripts">Scripts</a>
+    <a href="#tools">Tools</a>
   </nav>
 
   <section id="games" class="fade-in">
@@ -86,8 +105,16 @@
   </section>
 
   <section id="scripts" class="fade-in">
-    <h2>💻 Tools</h2>
+    <h2>💻 Scripts</h2>
     <p>Useful tools, bots, or experiments.</p>
+  </section>
+
+  <section id="tools" class="fade-in">
+    <h2>🛠️ Tools</h2>
+    <div class="project">
+      <h3>Drexlisten 🎶</h3>
+      <p>Open-source MP3 player for Android. <em>Work in Progress.</em></p>
+    </div>
   </section>
 
   <section>
@@ -100,3 +127,4 @@
   </section>
 </body>
 </html>
+
